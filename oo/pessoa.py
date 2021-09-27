@@ -1,12 +1,13 @@
 class Pessoa:
     def cumprimentar(self):
-        return f'Ola {id(self)}'
+        return 'Olá {id(self)}'
 
 
     if __name__ == '__main__':
-        P = Pessoa()
+        p =Pessoa()
         print(Pessoa.cumprimentar(p))
-        print(id(p))
+        print(id())
         print(p.cumprimentar())
+
 
 
